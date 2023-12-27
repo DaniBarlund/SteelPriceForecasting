@@ -2,7 +2,7 @@
 
 ## Data
 
-Data is price values of steel in INR (Indian rupees) on each given day from 2015-01-01 to 2023-12-26 gotten from [Source of data](https://www.investing.com/commodities/ncdex-steel-futures-historical-data).
+Data is price values of steel in INR (Indian rupees) on each given day from 2015-01-01 to 2023-12-26 gotten from [Source of data](https://www.investing.com/commodities/ncdex-steel-futures-historical-data). And can be downloaded through the source or from this repository from a file **"Steel Futures Historical Data"**
 Data has 7 variables:
 
 1. Date 
