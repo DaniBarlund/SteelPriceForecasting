@@ -18,6 +18,8 @@ For this project the focus will be on the Price variable given Date.
 **Example of data:**
 |Date      |Price     |Open      |High      |Low       |Vol.      |Change %  |
 |----------|----------|----------|----------|----------|----------|----------|
+|2023-01-03|39000     |41000     |41000     |38000     |0.43K     | -0.23%   |
+|2023-01-02|41000     |40000     |42500     |39700     |0.09K     | +0.25%   |
 |2023-01-01|40000     |39000     |41000     |38500     |0.23K     | +0.13%   |
 
 ## Preprocessing
