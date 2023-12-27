@@ -77,9 +77,11 @@ Data was split into training and test sets like shown in the picture below. This
 <img src="https://github.com/DaniBarlund/SteelPriceForecasting/blob/main/photos/TrainAndTest.png" width="500" height="400">
 
 First ARMA model was done with parameters of (1,0,1) that granted a RMSE of 1532.58, how this fits in to the graph is shown below.
+**Default parameters (1,0,1) as prediction**\
 <img src="https://github.com/DaniBarlund/SteelPriceForecasting/blob/main/photos/predictionDefault.png" width="500" height="400">
 
 Then parameters were tested from [0,5] for each parameter and the lowest RMSE of 795.06 was found for parameters of (1,3,3) and how this fits into the data is shown below.
+**Optimized parameters (1,3,3) as prediction**\
 <img src="https://github.com/DaniBarlund/SteelPriceForecasting/blob/main/photos/predictionOptimized.png" width="500" height="400">
 
 ## Conclusion
