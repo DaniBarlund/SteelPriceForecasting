@@ -24,7 +24,7 @@ _**For this project the focus will be on the Price variable given Date.**_
 |2023-01-01|40000     |39000     |41000     |38500     |0.23K     | +0.13%   |
 
 **Graph of Price to Index** \
-![Price to Index](https://github.com/DaniBarlund/SteelPriceForecasting/blob/main/photos/priceToIndex.png = 250x250)
+![Price to Index](https://github.com/DaniBarlund/SteelPriceForecasting/blob/main/photos/priceToIndex.png =250x250)
 
 **Graph of Price to Date** \
 ![Price to Date](https://github.com/DaniBarlund/SteelPriceForecasting/blob/main/photos/priceToDate.png)
