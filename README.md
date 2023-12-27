@@ -48,7 +48,10 @@ Date was set as index to simplify code. This was done by formatting string "26/1
 Numerical values on variables [Price, Open, High, Low] were in a string of "41,000.00" which need to be formatted to 41000.00. This was done by removing the unnecessary "," and then transforming the value from String to Int.
 
 **STEP 4.:**\
-Data has missing values between 2017-2021 like seen in **Graph of Price to Date** so data was changed to start from the first value on 2021.
+Data has missing values between 2017-2021 like seen in **Graph of Price to Date** so data was changed to start from the first value on 2021. New graph can be seen below.
+
+**Data from 2021 onwards**\
+<img src="https://github.com/DaniBarlund/SteelPriceForecasting/blob/main/photos/priceToDateUpdated.png" width="500" height="400">
 
 ## Predictions
 
@@ -70,4 +73,15 @@ d = 38903.300**
 ### ARMA
 Data was split into training and test sets like shown in the picture below. This way we can train the model and test it to find the best values for ARMA by calculating the RSME.
 
+**Data split into training and test sets**\
+<img src="https://github.com/DaniBarlund/SteelPriceForecasting/blob/main/photos/TrainAndTest.png" width="500" height="400">
+
+First ARMA model was done with parameters of (1,0,1) that granted a RMSE of 1532.58, how this fits in to the graph is shown below.
+<img src="https://github.com/DaniBarlund/SteelPriceForecasting/blob/main/photos/predictionDefault.png" width="500" height="400">
+
+Then parameters were tested from [0,5] for each parameter and the lowest RMSE of 795.06 was found for parameters of (1,3,3) and how this fits into the data is shown below.
+<img src="https://github.com/DaniBarlund/SteelPriceForecasting/blob/main/photos/predictionOptimized.png" width="500" height="400">
+
 ## Conclusion
+
+Project was a good introduction to ARMA as a method of forecasting but in the future projects I will be taking a closer look into other methods such as SARIMA which should take into account the seasonal changes in data.
