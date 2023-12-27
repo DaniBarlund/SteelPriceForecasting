@@ -14,7 +14,7 @@ Data has 7 variables:
 6. Vol. (Volume sold)
 7. Change % (Price change)
 
-For this project the focus will be on the Price variable given Date.
+_**For this project the focus will be on the Price variable given Date.**_
 
 **Example of data:**
 |Date      |Price     |Open      |High      |Low       |Vol.      |Change %  |
