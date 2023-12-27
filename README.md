@@ -61,11 +61,11 @@ Five lines were fitted to the data by using polynomials and linear regression. P
 **Fitted lines on the data**\
 <img src="https://github.com/DaniBarlund/SteelPriceForecasting/blob/main/photos/LinesOnPriceToIndex.png" width="500" height="400">
 
-From the graph it can be seen that polynomials with degrees of 3 and 4 are the best. Since they are pretty close to each other it's best to choose 3 degree polynomial since it is simpler. This polynomial follow equation of ax^3+bx^2+c+d, where \
-**a=0.000101
-b=-0.212
-c=96.258
-d=38903.300**
+From the graph it can be seen that polynomials with degrees of 3 and 4 are the best. Since they are pretty close to each other it's best to choose 3 degree polynomial since it is simpler.\ This polynomial follow equation of **ax^3+bx^2+c+d**, where\
+**a = 0.000101\
+b = -0.212\
+c = 96.258\
+d = 38903.300**
 
 ### ARMA
 Data was split into training and test sets like shown in the picture below. This way we can train the model and test it to find the best values for ARMA by calculating the RSME.
